@@ -1,0 +1,26 @@
+.banner-arrow {
+  display: none;
+
+  a {
+    position: absolute;
+    z-index: 999;
+    top: 50%;
+    margin-top: -22.5px;
+    width: 28px;
+    height: 45px;
+    background: url("../images/pre.png") no-repeat;
+    opacity: .5;
+
+    &:hover {
+      opacity: 1;
+    }
+    &.arrowLeft {
+      left: 0;
+    }
+    &.arrowRight {
+      background-position: -50px 0;
+      right: 0;
+    }
+  }
+
+}

@@ -1,0 +1,24 @@
+.banner-focus {
+  display: inline-block;
+  position: relative;
+  z-index: 999;
+  top: 270px;
+  padding: 4px;
+  background: rgba(0, 0, 0, .3);
+  border-radius: 20px;
+  font-size: 0;
+
+  li {
+    display: inline-block;
+    margin: 0 4px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, .8);
+    cursor: pointer;
+
+    &.active {
+      background: #F08080;
+    }
+  }
+}
